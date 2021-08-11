@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="something something something something something something something something something something something something something something">
+    <meta name="keywords" content="something something something something">
+    <link rel='icon' href='./image/basket_icon 1.png' type='image/x-icon'>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title> True Вязание</title>
+</head>
+
+<body>
+    <header class="header">
+        <dir class="header-mobile">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">Пряжа</a></li>
+                    <li><a class="menu__item" href="#">Спицы</a></li>
+                    <li><a class="menu__item" href="#">Крючки</a></li>
+                    <li><a class="menu__item" href="#">Аксессуары</a></li>
+                    <li><a class="menu__item" href="#">Подарочные сертификаты</a></li>
+                    <li><a class="menu__item" href="#">МК и описания</a></li>
+                    <li><a class="menu__item" href="#">Модели</a></li>
+                </ul>
+            </div>
+        </dir>
+        <div class="header-top">
+            <img src="./image/logo_header_2 1.png" alt="">
+            <div class="header-top-address">
+                <img src="./image/point_2_icon6 1.png" alt="">
+                <span>м. Кропоткинская<br>Соймоновский проезд, д.7 с.1</span>
+            </div>
+            <div class="header-top-time">
+                <img src="./image/time_2_icon3 1.png" alt="">
+                <span>Пн - Пт 11 - 20<br>
+                    Сб - Вск 11 - 18</span>
+            </div>
+            <div class="header-top-tel">
+                <img src="./image/Слой 1.png" alt="">
+                <span>+7 800 000 00 00<br>
+                    +7 800 000 00 00</span>
+            </div>
+            <img src="./image/basket_icon 1.png" alt="">
+        </div>
+        <div class="header-bottom">
+            <div class="header-bottom-nav container">
+                <a href="">Пряжа</a>
+                <a href="">Спицы</a>
+                <a href="">Крючки</a>
+                <a href="">Аксессуары</a>
+                <a href="">Подарочные сертификаты</a>
+                <a href="">МК и описания</a>
+                <a href="">Модели</a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="main-slider" id="app">
+            <button id="pre" @click="preSlider()"><img src="./image/Group 1.png"></button>
+            <span id="indicator"></span>
+            <button id="next" @click="nextSlider()"><img src="./image/Group 2.png"></button>
+        </div>
+        <div class="main-our-plus">
+            <div class="main-our-plus-item">
+                <img src="./image/Слой 2.png" alt="">
+                <span>Только
+                    натуральный
+                    состав</span>
+            </div>
+            <div class="main-our-plus-item">
+                <img src="./image/Слой 6.png" alt="">
+                <span>Актуальное
+                    наличие
+                    на сайте</span>
+            </div>
+            <div class="main-our-plus-item">
+                <img src="./image/Слой 2 (1).png" alt="">
+                <span>Быстрая
+                    отправка</span>
+            </div>
+            <div class="main-our-plus-item">
+                <img src="./image/Слой 1 (1).png" alt="">
+                <span>Удобное
+                    расположение</span>
+            </div>
+            <div class="main-our-plus-item">
+                <img src="./image/Слой 2 (2).png" alt="">
+                <span>Помощь
+                    в подборе
+                    товаров
+                </span>
+            </div>
+        </div>
+        <div class="main-info">
+            <div class="main-info-left">
+                <h3>ДОБРО ПОЖАЛОВАТЬ В НАШ НОВЫЙ МАГАЗИН!</h3>
+                <p>Мы садимся вязать, и вселенная вокруг начинает жить по-другому. Точнее, мы создаем
+                    собственную вселенную, в которой мы отдыхаем, вдохновляемся и создаем шедевры.
+                    Наш магазин за то, чтобы вы занимались своим любимым делом с удовольствием. Наш
+                    магазин – это место, где вам предложат пряжу и инструмент исключительного качества
+                    для создания лучших творений, которые вы только задумали. Наш магазин – это место,
+                    куда вы просто можете прийти поболтать и выпить чашечку кофе за вязанием </p>
+                <a href="">Узнать о нас больше</a>
+            </div>
+            <div class="main-info-rigth">
+                <video src="./image/video.mp4" controls="controls"></video>
+
+
+
+            </div>
+        </div>
+        <div class="main-contacts">
+            <div class="main-contacts-top">
+                <img src="./image/logo_header_2 1.png" alt="Вязание">
+                <div class="main-contacts-top-address">
+                    <img src="./image/point_2_icon6 1.png" alt="">
+                    <span>м. Кропоткинская<br>Соймоновский проезд, д.7 с.1</span>
+                </div>
+                <div class="main-contacts-top-time">
+                    <img src="./image/time_2_icon3 1.png" alt="">
+                    <span>Пн - Пт 11 - 20<br>
+                        Сб - Вск 11 - 18</span>
+                </div>
+                <div class="main-contacts-top-tel">
+                    <img src="./image/Слой 1.png" alt="">
+                    <span>+7 800 000 00 00<br>
+                        +7 800 000 00 00</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./script/database.js"></script>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
